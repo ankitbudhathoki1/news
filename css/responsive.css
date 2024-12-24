@@ -1,0 +1,227 @@
+
+@media (max-width: 1400px) { }
+@media (max-width: 1200px) { }
+@media (min-width: 992px) {
+    .navbar-brand {
+        display: none;
+      }
+    
+ }
+@media (max-width: 992px) { 
+    section.logo-banner .logo-holder img {
+        width: 220px;
+      }
+      section.search-page .category-title h2 {
+        font-size: 25px;
+        padding: 9px 10px;
+      }
+      section.search-page .search-wrapper h1 {
+        font-size: 27px;
+      }
+}
+@media (max-width: 768px) { 
+    section.flash-news .flashNews .flash-image img {
+        height: 350px;
+    }
+      section.flash-news .flashNews .heading h1 {
+          font-size: 35px;
+        }
+        section.flash-news .flashNews p {
+            font-size: 17.5px;
+        }
+        section.search-page .search-wrapper h1 {
+            font-size: 25.5px;
+          }
+          section.search-page .search-wrapper p {
+            font-size: 17px;
+          }
+          section.not-found-page .not-found-wrapper h1 {
+            font-size: 80px;
+          }
+          section.not-found-page .not-found-wrapper p {
+            font-size: 27px;
+          }
+          section.not-found-page .not-found-wrapper a {
+            padding: 7px 15px;
+            font-size: 17px;
+          }
+    }
+    @media (max-width: 767.98px) {
+        section.logo-banner .search-center {
+            margin: 15px 0;
+          }
+        section.category-finance .row-wrapper .category-sidebar-preview .sidebar-wrapper,
+        section.category-technology .row-wrapper .category-sidebar-preview .sidebar-wrapper,
+        section.category-news .row-wrapper .category-sidebar-preview .sidebar-wrapper{
+            flex-direction: column;
+        }
+        section.category-news .row-wrapper .category-sidebar-preview .sidebar-wrapper h6, section.category-finance .row-wrapper .category-sidebar-preview .sidebar-wrapper h6, section.category-technology .row-wrapper .category-sidebar-preview .sidebar-wrapper h6 {
+            font-size: 16px;
+            margin: 10px 0;
+            padding: 0 5px;
+          }
+          .health-education {
+            margin-top: 20px;
+          }
+          section.category-photo .photo-wrapper .image-holder,
+          section.category-sports-health .sports .category-sidebar-preview .image-holder,
+          section.category-sports-health .health-education .image-holder,
+          section.category-technology .row-wrapper .category-sidebar-preview .sidebar-wrapper img,
+          section.category-news .row-wrapper .category-sidebar-preview .sidebar-wrapper img,
+          section.category-finance .row-wrapper .category-sidebar-preview .sidebar-wrapper img,
+          section.category-society .sidebar-wrapper .image-holder   {
+            height: 250px;
+          }
+          .category-video .video-holder iframe {
+            width: 100%;
+          }
+          .category-video .video-wrapper {
+            margin: 0 0 15px 0px;
+          }
+          section.category-video .video-wrapper h3 {
+            margin: 15px 0 8px 0;
+          }
+          section.category-talk .category-main-preview .sidebar-wrapper {
+            height: 260px;
+          }
+          section.category-society .literature .image-holder, section.category-sports-health .sports .category-main-preview,
+          section.category-sports-health .sports .category-sidebar-preview .sidebar-wrapper{
+            margin-bottom: 15px;
+          }
+          section.category-sports-health .health-education p {
+            margin: 5px 0 0px 0;
+          }
+          section.category-news .row-wrapper .category-main-preview p, section.category-politics .category-main-preview p, section.category-society .category-main-preview p, section.category-finance .row-wrapper .category-main-preview p, section.category-technology .row-wrapper .category-main-preview p, section.category-sports-health .sports .category-main-preview p, section.category-sports-health .health-education p, section.category-photo .photo-wrapper p, section.category-page .category-sidebar-wrapper p {
+            margin: 5px 0 0px 0;
+          }
+          section.category-related-news .category-main-preview .image-holder {
+            height: 300px;
+          }
+          section.category-related-news .category-main-preview .body h3 {
+            font-size: 19px;
+            margin: 8px 0 0 0;
+            font-weight: 600;
+          }
+    } 
+@media (max-width: 576px) {
+    section.nav-section .navbar-brand img {
+        width: 70px;
+      }
+    section.flash-news .flashNews .flash-image img {
+        height: 275px;
+    }
+    section.category-photo .photo-wrapper .image-holder,
+    section.category-sports-health .sports .category-sidebar-preview .image-holder,
+    section.category-sports-health .health-education .image-holder,
+    section.category-technology .row-wrapper .category-sidebar-preview .sidebar-wrapper img,
+    section.category-news .row-wrapper .category-sidebar-preview .sidebar-wrapper img,
+    section.category-finance .row-wrapper .category-sidebar-preview .sidebar-wrapper img,
+    section.category-society .sidebar-wrapper .image-holder   {
+        height: 200px;
+    }
+    section.nav-section .navbar-toggler {
+        padding: 5px;
+        font-size: 15px;
+      }
+      section.category-news .row-wrapper .category-main-preview h3, section.category-politics .category-main-preview h4, section.category-society .category-main-preview h4, section.category-politics .sidebar-wrapper h4, section.category-society .sidebar-wrapper h4, section.category-finance .row-wrapper .category-main-preview h3, section.category-technology .row-wrapper .category-main-preview h3, section.category-sports-health .sports .category-main-preview h3, section.category-sports-health .sports .category-sidebar-preview h4, section.category-sports-health .health-education h3, section.category-photo .photo-wrapper h3, section.category-video .video-wrapper h3, section.category-page .category-sidebar-wrapper h3 {
+        font-size: 18px;
+      }
+      section.category-society .literature .image-holder, section.category-sports-health .sports .category-main-preview .image-holder {
+        height: 250px;
+      }
+      section.category-news .row-wrapper .category-main-preview p, section.category-politics .category-main-preview p, section.category-society .category-main-preview p, section.category-finance .row-wrapper .category-main-preview p, section.category-technology .row-wrapper .category-main-preview p, section.category-sports-health .sports .category-main-preview p, section.category-sports-health .health-education p, section.category-photo .photo-wrapper p, section.category-page .category-sidebar-wrapper p {
+        font-size: 16.5px;
+      }
+      section.category-related-news .category-main-preview .image-holder {
+        height: 200px;
+      }
+      section.category-related-news .category-main-preview .body h3 {
+        font-size: 18px;
+      }
+      /* recent updates trending */
+      .recent-updates .recent ul li a, .trending-post .trending ul li a {
+        font-size: 19px;
+      }
+      .recent-updates .recent ul li, .trending-post .trending ul li {
+        font-size: 16px;
+      }
+      section.search-page .search-wrapper h1 {
+        font-size: 24px;
+      }
+      section.search-page .search-wrapper p {
+        font-size: 16.5px;
+      }
+      section.search-page .search-wrapper .author-date h6 {
+        font-size: 15px;
+      }
+}
+@media (max-width: 575.98px) {
+    .contact-wrapper, .social-wrapper {
+        display: flex;
+        justify-content: center;
+        margin: 4px 0;
+      }
+}
+
+@media (max-width: 390px) {
+    header a {
+        font-size: 14px;
+      }
+    section.flash-news .flashNews .heading h1 {
+        font-size: 25px;
+    }
+    section.category-news .category-title h2, section.category-politics .category-title h2, section.category-society .category-title h2, section.category-thoughts .category-title h2, section.category-finance .category-title h2, section.category-technology .category-title h2, section.category-talk .category-title h2, section.category-sports-health .sports h2, section.category-sports-health .health-education h2, section.category-photo .category-title h2, section.category-video .category-title h2, section.category-related-news .category-title h2 {
+        font-size: 23px;
+        padding: 4px 10px;
+      }
+      section.category-thoughts .category-main-preview .sidebar-wrapper h3 {
+        margin: -85px 0 0 0;
+        font-size: 23px;
+        height: 85px;
+      }
+      section.category-news .row-wrapper .category-main-preview p, section.category-politics .category-main-preview p, section.category-society .category-main-preview p, section.category-finance .row-wrapper .category-main-preview p, section.category-technology .row-wrapper .category-main-preview p, section.category-sports-health .sports .category-main-preview p, section.category-sports-health .health-education p, section.category-photo .photo-wrapper p, section.category-page .category-sidebar-wrapper p {
+        font-size: 16px;
+      }
+      section.category-talk .category-main-preview .sidebar-wrapper .image-holder {
+        height: 150px;
+        width: 150px;
+      }
+      section.flash-news .flashNews p {
+        font-size: 16px;
+      }
+      .phone-email {
+        flex-direction: column;
+      }
+      /* not found page */
+      section.not-found-page .not-found-wrapper h1 {
+        font-size: 70px;
+      }
+      section.not-found-page .not-found-wrapper p {
+        font-size: 24px;
+      }
+      section.not-found-page .not-found-wrapper a {
+        padding: 7px 15px;
+        font-size: 17px;
+      }
+}
+
+@media (max-width: 320px) {
+    section.nav-section .navbar-brand img {
+        width: 60px;
+      }
+    section.category-photo .photo-wrapper .image-holder, section.category-sports-health .sports .category-sidebar-preview .image-holder, section.category-sports-health .health-education .image-holder, section.category-technology .row-wrapper .category-sidebar-preview .sidebar-wrapper img, section.category-news .row-wrapper .category-sidebar-preview .sidebar-wrapper img, section.category-finance .row-wrapper .category-sidebar-preview .sidebar-wrapper img, section.category-society .sidebar-wrapper .image-holder {
+        height: 150px;
+      }
+      section.category-thoughts .category-main-preview .image-holder {
+        height: 240px;
+      }
+      section.category-society .literature .image-holder, section.category-sports-health .sports .category-main-preview .image-holder{
+        /* height: 175px; */
+      }
+      section.category-related-news .category-main-preview .image-holder {
+        height: 160px;
+      }
+}
+
+
+
